@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="911.0" style="-fx-background-color: white sale;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ares.Home">
+   <children>
+      <AnchorPane layoutX="-5.0" prefHeight="605.0" prefWidth="213.0" style="-fx-background-color: #FFD045;">
+         <children>
+            <ImageView fitHeight="104.0" fitWidth="200.0" layoutX="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/ares.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btngestionL" layoutX="4.0" layoutY="139.0" mnemonicParsing="false" onAction="#gestionL" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: black;" text="Gestion des Listes" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="5.0" layoutY="231.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: black;" text="Gestion des Salles" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font></Button>
+            <Button layoutX="5.0" layoutY="322.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: black;" text="Gestion des Tables" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+            <Button layoutY="420.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="225.0" style="-fx-background-color: black;" text="Button" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutY="505.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="226.0" style="-fx-background-color: black;" text="Button" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnlogout" layoutX="476.0" layoutY="537.0" mnemonicParsing="false" onAction="#userlogout" prefHeight="44.0" prefWidth="88.0" style="-fx-background-color: #FFD045;" text="Logout">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="55.0" fitWidth="237.0" layoutX="414.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/WhatsApp%20Image%202023-07-11%20at%2010.31.31.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#a42727" layoutX="396.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" wrappingWidth="248.0489959716797">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="120.0" fitWidth="162.0" layoutX="454.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/hello.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="205.0" layoutY="2.0" prefHeight="74.0" prefWidth="513.0" />
+   </children>
+</Pane>
